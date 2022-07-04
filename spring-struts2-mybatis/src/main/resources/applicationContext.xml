@@ -4,6 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+
+    <!-- 聚合其它配置 当前文件只做整合 -->
     <import resource="applicationContext-action.xml"/>
     <import resource="applicationContext-service.xml"/>
     <import resource="applicationContext-dao.xml"/>

@@ -1,0 +1,18 @@
+server:
+  port: 7788
+
+pd:
+  swagger:
+    enabled: true
+    title: knife4j测试demo
+    description: 测试测试
+    version: "0.1"
+    docket:
+      user:
+        title: 用户模块
+        group: 用户组
+        base-package: com.waner.controller.user
+      menu:
+        title: 菜单模块
+        group: 菜单组
+        base-package: com.waner.controller.menu
